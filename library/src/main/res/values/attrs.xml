@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DropDownMenu">
+        <attr name="drop_tab_count" format="integer"/>  <!--顶部tab数量-->
+        <attr name="drop_tab_height" format="dimension"/> <!--顶部tab高度-->
+        <attr name="drop_tab_titles" format="string"/>   <!--顶部tab标题用","隔开 例：开启/关闭,使用时间,电池电量-->
+        <attr name="drop_pop_content" format="string"/>  <!--pop内容，同一列内容用","隔开，每一行内容用":"隔开 例：开启,关闭:0~3小时,3~6小时,6~9小时,9~12小时,12小时以上:10%,20%,30%,40%,50%,100%-->
+        <attr name="drop_tab_selected_color" format="color"/>  <!--Tab文字选中颜色-->
+    </declare-styleable>
+</resources>

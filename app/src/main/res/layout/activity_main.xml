@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F2F2"
+    tools:context=".MainActivity">
+
+    <com.jwl.library.DropDownMenu
+        android:id="@+id/ddm"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        app:drop_tab_count="3"
+        app:drop_tab_titles="开启/关闭,使用时间,电池用量"
+        app:drop_pop_content="开启,关闭:0~3小时,3~6小时,6~9小时,9~12小时,12小时以上:10%,20%,30%,40%,50%,100%"
+        android:background="#FFF"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
